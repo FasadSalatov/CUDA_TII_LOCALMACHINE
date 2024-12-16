@@ -59,7 +59,7 @@ async def respond(update, context):
 
 # Главная функция для настройки бота
 def main():
-    TOKEN = "7708475624:AAFO5ettrpcvGTzbTC-B2OH_0HtZFEMk3hg"
+    TOKEN = "megatoken"
 
     # Настройка Telegram бота
     application = Application.builder().token(TOKEN).build()
